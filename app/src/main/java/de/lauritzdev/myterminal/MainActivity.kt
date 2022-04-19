@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         btn_1.setOnClickListener {
             ButtonManager.onBtnClick(this, et_1, log_recycler_view)
         }
+
+        btn_2.setOnClickListener {
+            ButtonManager.onBtnClick(this, et_2, log_recycler_view)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
