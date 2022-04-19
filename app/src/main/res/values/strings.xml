@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyTerminal</string>
+    <string name="app_name">uTerm</string>
     <string name="cmd_1_btn_hint">run cmd 1</string>
     <string name="cmd_1_et_hint">Command 1</string>
     <string name="cmd_2_btn_hint">run cmd 2</string>
