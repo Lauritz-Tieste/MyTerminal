@@ -6,35 +6,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/console"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:orientation="vertical"
-        android:padding="8dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="message"
-            android:textColor="@color/console_msg"
-            android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="input"
-            android:textColor="@color/console_input"
-            android:layout_marginBottom="16dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="data"
-            android:textColor="@color/console_data"
-            android:layout_marginBottom="16dp"/>
-
-
-    </LinearLayout>
+        android:padding="8dp"
+        tools:listitem="@layout/console_item"
+        tools:itemCount="50"/>
 
 
     <LinearLayout
