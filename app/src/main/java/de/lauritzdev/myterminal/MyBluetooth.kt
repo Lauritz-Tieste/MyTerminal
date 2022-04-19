@@ -20,7 +20,7 @@ object MyBluetooth {
         bluetoothManager: BluetoothManager,
         recyclerView: RecyclerView
     ) {
-        val bluetoothAdapter: BluetoothAdapter? = bluetoothManager.getAdapter()
+        val bluetoothAdapter: BluetoothAdapter? = bluetoothManager.adapter
         if (bluetoothAdapter == null) {
             Toast.makeText(
                 context,

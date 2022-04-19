@@ -10,13 +10,13 @@
         android:id="@+id/device"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="32dp"
-        tools:text="Besio6126361623" />
+        android:layout_marginEnd="32dp"
+        tools:text="device name" />
 
     <TextView
         android:id="@+id/mac"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="12:41:75:43:67" />
+        tools:text="12:34:56:78:90" />
 
 </LinearLayout>

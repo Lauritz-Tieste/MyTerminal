@@ -2,7 +2,6 @@ package de.lauritzdev.myterminal
 
 import android.content.Context
 import android.widget.EditText
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 object ButtonManager {

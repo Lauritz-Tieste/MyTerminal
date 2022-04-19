@@ -7,21 +7,21 @@ import android.widget.TextView
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 
-internal class ConnectAdapter(var itemList: List<Device>) :
+internal class ConnectAdapter(private var itemList: List<Device>) :
     RecyclerView.Adapter<ConnectAdapter.ConnectViewHolder>() {
 
-    private lateinit var mListener: onItemClickListener
+    private lateinit var mListener: OnItemClickListener
 
-    interface onItemClickListener {
+    interface OnItemClickListener {
         fun onItemClick(position: Int)
     }
 
-    fun setOnItemClickListener(listener: onItemClickListener) {
+    fun setOnItemClickListener(listener: OnItemClickListener) {
         mListener = listener
     }
 
 
-    internal inner class ConnectViewHolder(view: View, listener: onItemClickListener) :
+    internal inner class ConnectViewHolder(view: View, listener: OnItemClickListener) :
         RecyclerView.ViewHolder(view) {
         var deviceTextView: TextView = view.findViewById(R.id.device)
         var macTextView: TextView = view.findViewById(R.id.mac)

@@ -31,14 +31,16 @@
                 android:id="@+id/btn_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="8dp"
-                android:text="run cmd1" />
+                android:layout_marginEnd="8dp"
+                android:text="@string/cmd_1_btn_hint" />
 
             <EditText
                 android:id="@+id/et_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Command 1" />
+                android:hint="@string/cmd_1_et_hint"
+                android:inputType="text"
+                android:importantForAutofill="no" />
 
         </LinearLayout>
 
@@ -52,14 +54,16 @@
                 android:id="@+id/btn_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="8dp"
-                android:text="run cmd2" />
+                android:layout_marginEnd="8dp"
+                android:text="@string/cmd_2_btn_hint" />
 
             <EditText
                 android:id="@+id/et_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Command 2" />
+                android:hint="@string/cmd_2_et_hint"
+                android:inputType="text"
+                android:importantForAutofill="no" />
 
         </LinearLayout>
 
@@ -78,7 +82,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="(TEST) status: connected - AB1234" />
+            android:text="@string/sample_status_text" />
     </LinearLayout>
 
 

@@ -14,7 +14,7 @@ object ConnectManager {
         val layoutManager = LinearLayoutManager(context)
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = connectAdapter
-        connectAdapter.setOnItemClickListener(object : ConnectAdapter.onItemClickListener {
+        connectAdapter.setOnItemClickListener(object : ConnectAdapter.OnItemClickListener {
             override fun onItemClick(position: Int) {
                 Toast.makeText(
                     context,
