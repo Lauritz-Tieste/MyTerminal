@@ -8,20 +8,20 @@ import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 
 internal class ConsoleAdapter(private var itemsList: List<String>) :
-    RecyclerView.Adapter<ConsoleAdapter.MyViewHolder>() {
+    RecyclerView.Adapter<ConsoleAdapter.ConsoleViewHolder>() {
 
-    internal inner class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+    internal inner class ConsoleViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var itemTextView: TextView = view.findViewById(R.id.console_text)
     }
 
     @NonNull
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ConsoleViewHolder {
         val itemView = LayoutInflater.from(parent.context)
             .inflate(R.layout.console_item, parent, false)
-        return MyViewHolder(itemView)
+        return ConsoleViewHolder(itemView)
     }
 
-    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ConsoleViewHolder, position: Int) {
         val item = itemsList[position]
         holder.itemTextView.text = item
     }
