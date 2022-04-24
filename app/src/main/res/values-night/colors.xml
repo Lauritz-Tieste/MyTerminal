@@ -3,11 +3,12 @@
     <color name="accent_200">#81D4FA</color>
     <color name="accent_500">#03A9F4</color>
     <color name="accent_700">#0288D1</color>
-    <color name="status_bar_bg">#060606</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="console_msg">#4CAF50</color>
     <color name="console_input">#FF5722</color>
     <color name="console_data">#3F51B5</color>
     <color name="transparent">#ffffffff</color>
+    <color name="status_connected">#404CAF50</color>
+    <color name="status_disconnected">#40F44336</color>
 </resources>

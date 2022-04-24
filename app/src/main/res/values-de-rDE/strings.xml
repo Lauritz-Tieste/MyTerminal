@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cmd_1_btn_hint">Befehl 1 ausführen</string>
+    <string name="cmd_1_et_hint">Befehl 1</string>
+    <string name="cmd_2_btn_hint">Befehl 2 ausführen</string>
+    <string name="cmd_2_et_hint">Befehl 2</string>
+    <string name="sample_status_text">(TEST) status: verbunden - BT100</string>
+    <string name="bt_enabled">Bluetooth wurde aktiviert</string>
+    <string name="bt_disabled">Bluetooth wurde deaktiviert</string>
+    <string name="bt_enabling_cancel">Bluetooth Aktivierung wurde abgebrochen</string>
+    <string name="bt_no_devices_found">Es wurden keine Geräte gefunden</string>
+    <string name="bt_not_supported">Dieses Gerät unterstützt kein Bluetooth</string>
+    <string name="settings">Einstellungen</string>
+    <string name="save_json">Als JSON speichern</string>
+    <string name="open_json">JSON Datei öffnen</string>
+    <string name="clear_terminal">Konsole leeren</string>
+    <string name="connection">Verbindung</string>
+    <string name="btn_refresh">aktualisieren</string>
+    <string name="btn_disconnect">Verbindung trennen</string>
+    <string name="status_connected">verbunden</string>
+    <string name="status_not_connected">nicht verbunden</string>
+    <string name="status">"status: "</string>
+    <string name="connect_connected_full">Du wurdest erfolgreich mit dem Gerät verbunden</string>
+    <string name="bluetooth_activated">Bluetooth aktiviert</string>
+    <string name="bluetooth_activation_cancel">Bluetooth Aktivierung abgebrochen</string>
+    <string name="bluetooth_deactivated">Bluetooth deaktiviert</string>
+    <string name="bluetooth_doesnt_work">Bluetooth funktioniert nicht</string>
+    <string name="connected">Verbunden</string>
+    <string name="disconnect">Verbindung trennen</string>
+    <string name="no_devices_found">Keine Geräte gefunden</string>
+</resources>
